@@ -2,17 +2,15 @@
     height: 100vh;
     background-color: rgba(30, 67, 116, 0.842);
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 .title{
-  position: absolute;
-  bottom: 800px;
   color: rgb(146, 178, 219);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 #quote-box{
@@ -23,6 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25vh;
 }
 .box{
   height: 25vh;
@@ -38,10 +37,11 @@
   justify-content:center;
   padding-top: 5%;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 #author {
+  font-size:1.5vw;
   height: 5vh;
   width: 100%;
   color: rgba(30, 67, 116, 0.842);
@@ -58,8 +58,9 @@
 }
 
 .newquote{
-  height: 3em;
-  width: 7em;
+  height: 4vh;
+  font-size: 0.7vw;
+  width: 5vw;
   font-family: 'Baloo Bhaina 2', cursive;
   border: 0px black solid;
   border-radius: 5%;
