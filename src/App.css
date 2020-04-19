@@ -14,7 +14,7 @@
   font-size: 4vw;
 }  
 #quote-box{
-  height: 30vh;
+  height: auto;
   width:33%;
   background-color: white;
   border-radius: 2%;
@@ -24,12 +24,12 @@
   margin-bottom: 25vh;
 }
 .box{
-  height: 25vh;
+  height: auto;
   width: 26vw;
 }
 
 #text {
-  height: 13vh;
+  height: auto;
   color:rgba(30, 67, 116, 0.842);
   width: 100%;
   display: flex;
@@ -37,13 +37,13 @@
   justify-content:center;
   padding-top: 5%;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 23px;
   margin-bottom: 10px;
 }
 
 #author {
   
-  height: 5vh;
+  height: auto;
   width: 100%;
   color: rgba(30, 67, 116, 0.842);
   display: flex;
@@ -51,16 +51,18 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   font-size:1.5vw;
+  padding-bottom: 10px;
 
 }
 
 .buttons {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .newquote{
-  height: 4vh;
+  height: auto;
   font-size: 0.7vw;
   width: 5vw;
   font-family: 'Baloo Bhaina 2', cursive;
