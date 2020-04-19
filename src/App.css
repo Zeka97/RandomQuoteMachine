@@ -6,11 +6,12 @@
     justify-content: space-around;
     align-items: center;
 }
+@media only screen and (min-width: 900px) {
 .title{
   color: rgb(146, 178, 219);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 4vw;
 }  
 #quote-box{
   height: 30vh;
@@ -78,8 +79,15 @@
 .icon_a{
   color: rgba(30, 67, 116, 0.842);
 }
+}
 
 @media only screen and (max-width: 900px){
+  .title{
+    color: rgb(146, 178, 219);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 6vw;
+  } 
   #quote-box{
     height: auto;
     width:70%;
